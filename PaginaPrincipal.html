@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ventana modal css</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+<!--Boton-->
+    <div class="boton-modal">
+        <label for="btn-modal">
+            Ingresar
+        </label>
+    </div>
+<!--Fin de Boton-->
+<!--Ventana Modal-->
+    <input type="checkbox" id="btn-modal">
+    <div class="container-modal">
+        <div class="content-modal">
+            <h1>Login</h1>
+            <script src="javascript.js"></script>
+               <form name=form id="Inicio Sesion">
+                 Usuario: <input placeholder="Jhandry" type="text" name="usuario" id="usuario">
+                <br>
+                 Contrasena: <input placeholder="1234" type="password" name="contrasena" id="contrasena">
+                <br>
+                 <br>
+                <input onclick= ir() type=button name="boton" id="miBoton" value="Iniciar sesion">
+                </form>
+
+
+                <div class="btn-cerrar">
+                <label for="btn-modal">Cerrar</label>
+                </div>
+        </div>
+        <label for="btn-modal" class="cerrar-modal"></label>
+    </div>
+</body>
+</html>

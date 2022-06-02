@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ventana modal css</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="javascript.js"></script>
+
+    
+</head>
+<body>
+
+    <div class="boton-modal">
+        <h1>Escoga el elemento que desea observar</h1>
+        <label for="btn-modal">
+            Reproductor
+        </label>
+        <br>
+        <br>
+         <label for="btn-modal2">
+            Curriculum
+        </label>
+        <br>
+        <br>
+         
+    </div>
+<!--Fin de Boton-->
+<!--Ventana Modal-->
+    <input type="checkbox" id="btn-modal">
+    <div class="container-modal">
+        <div class="content-modal">
+            <h1>Reproductor de video</h1>
+            <video width="360" height="240" id="video">
+                <source src="prueba.mp4" type="video/mp4">
+                   </video>
+                     <br>
+                      <button onclick="playPause()">&#9658;||</button>
+                      <button onclick="stop()">&#9726;</button>
+                      <button onclick="skip(-10)">&lt;&lt;</button>
+                      <button onclick="skip(10)">&gt;&gt;</button>
+
+
+
+
+                <div class="btn-cerrar">
+                <label for="btn-modal">Cerrar</label>
+                </div>
+        </div>
+        <label for="btn-modal" class="cerrar-modal"></label>
+    </div>
+
+
+    <input type="checkbox" id="btn-modal2">
+    <div class="container-modal2">
+        <div class="content-modal2">
+            <h1>Jhandry David Tocto Barreto</h1>
+            <p> Telefono: (956) 956-2423</p>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <ul>
+                    <li>Fecha de nacimiento: 30/10/2001</li>
+                    <li>Cedula: 1150210662</li>
+                    <li>Email: jhandry.tocto@unl.edu.ec</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Formacion Academica</legend>
+                <ul>
+                    <li>Bachillerato: Unidad Educativa Fiscomisional "La Dolorosa"</li>
+                    <li>Universidad Nacional de Loja</li>
+                </ul>
+            </fieldset>
+             <fieldset>
+              <legend>Habilidades Tecnicas</legend>
+                <ul>
+                    <li>Conocimiento de lenguajes de programacion tales como Java, C, C++</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Trabajos realizados o experiencia</legend>
+                <ul>
+                    <li>Poca experiencia laboral</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Deportes</legend>
+                <ul>
+                    <li>Practicas de futbol</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Cursos o capacitaciones
+</legend>
+                <ul>
+                    <li>Curso de phyton</li>
+                </ul>
+            </fieldset>
+
+                <div class="btn-cerrar2">
+                <label for="btn-modal2">Cerrar</label>
+                </div>
+        </div>
+        <label for="btn-modal2" class="cerrar-modal2"></label>
+    </div>
+
+    
+
+    <center>
+     <input onclick=listado()  type=button name="boton" id="miBotonlista" value="Contenido de la lista de Estudiantes de 5to ciclo">
+
+     <input onclick=calcula()  type=button name="boton" id="miBotoncalcu" value="Calculadora">
+
+     <input onclick=audio()  type=button name="boton1" id="miBotonAudio" value="Audio">
+    
+     <input onclick=horario()  type=button name="boton" id="miBotonJson" value="Horario">
+     </center>
+
+
+</body>
+</html>

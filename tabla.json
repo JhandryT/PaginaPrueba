@@ -1,0 +1,27 @@
+[
+   {
+    "Lunes" : "Sistemas Digitales",
+    "Martes" : "Desarrollo basado en plataformas",
+    "Miercoles" : "Fundamentos de Redes",
+    "Jueves" : "Simulacion",
+    "Viernes" : "Sistemas Digitales"
+   },
+   {
+    "Lunes" : "Analisis Numerico",
+    "Martes" : "Fundamentos de Redes",
+    "Miercoles" : "Desarrollo basado en plataformas",
+    "Jueves" : "Analisis Numerico",
+    "Viernes" : "Analisis Numerico"
+   },
+   {
+    "Lunes" : "Desarrollo basado en plataformas",
+    "Martes" : "Sistemas Digitales",
+    "Miercoles" : "Simulacion",
+    "Jueves" : "Desarrollo basado en plataformas",
+    "Viernes" : "Simulacion"
+   }
+
+
+
+
+]

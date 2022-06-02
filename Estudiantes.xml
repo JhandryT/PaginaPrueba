@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbp>
+    <estudiante ides="1"> 
+        <cedula genero="masculino" id="6843">1150210662</cedula>
+        <nombre>Jhandry</nombre>
+        <apellido>tocto</apellido>
+        <celular>0964521574</celular>    
+    </estudiante>
+    <estudiante> 
+        <cedula>1132749226</cedula>
+        <nombre>Edwin</nombre>
+        <apellido>Soto</apellido>
+        <celular>09851515347</celular>    
+    </estudiante>
+    <estudiante> 
+        <cedula>1133232664</cedula>
+        <nombre>Luis</nombre>
+        <apellido>Campo</apellido>
+        <celular>0975272234</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula>1150214889</cedula>
+        <nombre>Pablo</nombre>
+        <apellido>Barreto</apellido>
+        <celular>0994427272</celular>    
+    </estudiante> 
+    <estudiante> 
+        <cedula>1856531924</cedula>
+        <nombre>Carlos</nombre>
+        <apellido>Enrique</apellido>
+        <celular>034124164</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula>7576867676</cedula>
+        <nombre>Jenni</nombre>
+        <apellido>Rivera</apellido>
+        <celular>098165565</celular>    
+    </estudiante>  
+  
+     
+</dbp>
